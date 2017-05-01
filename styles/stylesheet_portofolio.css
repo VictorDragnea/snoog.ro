@@ -1,0 +1,149 @@
+/* CSS */
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,500);
+
+body {font-family: 'Roboto', sans-serif;
+	font-size:18px;
+	background-color: #666;
+	color: #fff;
+}
+
+.dummy_nav {margin-bottom: 0px !important;} 
+
+@media only screen and (min-width : 320px)  {
+.container-fluid {
+	width:100%;
+	}
+}
+
+@media only screen and (min-width : 768px) {
+	.container-fluid {
+	width:90%;
+	}	
+}
+
+@media only screen  and (min-width : 1224px) {
+	.container-fluid {
+	width:70%;
+	}
+}
+
+
+.div_about {background-color: #e95420;}
+
+#About {padding-top:50px;
+		padding-bottom: 5%;
+		box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.8)}		
+
+#text {
+	margin-top: auto;
+	margin-bottom: auto;
+	text-align: justify;
+}	
+
+@media only screen and (max-width : 767px)  {
+	#text {
+		text-align: justify;
+	}
+}
+
+span {
+	font-weight: bold;
+	color: #666;
+}
+
+.about_text_pepene {
+	padding-bottom: 20px;
+}
+
+#img {margin-bottom: auto;}
+
+
+hr {
+	max-width: 665px;
+	border-top: solid 3px;
+}
+
+hr.linie::after {
+	content: "</>";
+	top: -0.7em;
+	font-size: 1.5em;
+	background-color: #e95420;
+	padding: 0 0.25em;
+	position: relative;
+
+}
+
+#small_logo_list img:hover {
+	filter: grayscale(0%);
+	
+}
+
+#small_logo_list img {
+	filter: grayscale(100%);
+	padding-top: 1em;
+}
+
+
+
+
+
+.div_work {background-color: #00c4cc;}
+#Work {padding-top:60px;
+		padding-bottom: 5%;
+		box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.8)}
+
+#Work img {
+		height: 200px;
+		width: 280px;
+		}
+		
+.img-thumbnail {margin-bottom: 30px}		
+		
+.div_contact {background-color: #f7b733;}
+
+#Contact {padding-top:40px;
+		padding-bottom: 5%;
+		box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.8)}
+
+
+
+#Quote {padding-top:40px;
+		padding-bottom: 5%;
+		box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.8);
+		background-color: rgb(115, 168, 87); }	
+
+.quote_box {
+	 background-color: #fff;
+	 border-radius: 3px;
+}		
+
+#random_quote {
+	    font-weight:500;
+    	font-size:1.4em;
+	  }
+
+#quote_author {
+		font-size:0.9em;
+		font-weight:200;
+}
+
+.quote_buttons :hover {
+	opacity: 0.8;
+	}
+
+#tweet {
+	float:left;
+}	
+
+.div_Weather {
+  background-color: red;
+}
+
+.footer  {background-color: #101010;
+		padding-top: 20px;
+		padding-bottom: 20px;
+		}
+
+		
+
+		
