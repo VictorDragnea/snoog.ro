@@ -135,8 +135,11 @@ hr.linie::after {
 	float:left;
 }	
 
+
 .div_Weather {
-  background-color: red;
+  	color: #161616;
+  	background-color: currentColor;
+  	box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.8);
 }
 
 .footer  {background-color: #101010;
