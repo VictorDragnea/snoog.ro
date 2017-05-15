@@ -26,7 +26,7 @@
 function getQuote(){		
 	$.ajax({
 		  url: 'proxy.php',
-		  async:true,
+		  async:false,
 		  type: "GET",
 		  dataType: "json",
 		  success: function(result){
