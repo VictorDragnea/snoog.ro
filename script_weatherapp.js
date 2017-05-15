@@ -4,7 +4,7 @@ $.ajax({
 			url: 'https://ipinfo.io',
 			dataType: 'json',
 			success: function(data){ /*intoarce coordonatele IP-ului*/
-				console.log(data);
+				//console.log(data);
 				var loc = data.loc.split(',');  /*converteste coord din string in array*/
 
 				/*compune URL-ul pt ajaxul OpenWeather.com*/

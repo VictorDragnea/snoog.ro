@@ -86,6 +86,19 @@ hr.linie::after {
 
 
 
+Hello,
+
+Below you can find the vendors certificate for the custom domain.
+
+https://www.dropbox.com/s/vacyhdf4dwaw5r5/myaccount.approvalmax.com.zip?dl=0
+
+They have not created the CNAME.
+
+After you install it please contact us back so we can finish the setup in GAP.
+
+Best regards,
+
+
 
 .div_work {background-color: #00c4cc;}
 #Work {padding-top:60px;
@@ -95,7 +108,24 @@ hr.linie::after {
 #Work img {
 		height: 200px;
 		width: 280px;
+		-webkit-filter: grayscale(100%);
+		filter: grayscale(100%);
+		-webkit-transition: .3s ease-in-out;
+		transition: .3s ease-in-out;
+
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
 		}
+
+#Work img:hover {
+	-webkit-filter: grayscale(0);
+	filter: grayscale(0);
+
+	-webkit-transform: scale(1.5);
+	transform: scale(1.5);
+}
 		
 .img-thumbnail {margin-bottom: 30px}		
 		
@@ -104,6 +134,26 @@ hr.linie::after {
 #Contact {padding-top:40px;
 		padding-bottom: 5%;
 		box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.8)}
+
+#Wiki {
+	background: #092B40;
+	box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.8);
+}
+
+#wiki {
+	position: relative;
+	/*display: block;*/
+	z-index: 1;
+	width: 40px;
+	height: 40px;
+	margin-left: 0;
+	padding: 0;
+	/*margin-bottom: 10px;*/
+	border: 4px solid #D96F32;
+	border-radius: 20px;
+	background: #092B40;
+}
+
 
 
 

@@ -38,9 +38,9 @@ function getQuote(){
 			$("#tweet").attr("href", "https://twitter.com/intent/tweet?hashtags=quotes&text=" + obj.quoteText);
 			$("#Quote").css("background-color", array_culori[Math.floor(Math.random()*array_culori.length)]);
 		  },
-		  error: function(xhr, ajaxOptions, thrownError) {
-        console.log(xhr);
-    }
+		/*  error: function(xhr, ajaxOptions, thrownError) {
+        //console.log(xhr);
+    }*/
 		});	
 	}
 
