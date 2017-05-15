@@ -83,23 +83,6 @@ hr.linie::after {
 	padding-top: 1em;
 }
 
-
-
-
-Hello,
-
-Below you can find the vendors certificate for the custom domain.
-
-https://www.dropbox.com/s/vacyhdf4dwaw5r5/myaccount.approvalmax.com.zip?dl=0
-
-They have not created the CNAME.
-
-After you install it please contact us back so we can finish the setup in GAP.
-
-Best regards,
-
-
-
 .div_work {background-color: #00c4cc;}
 #Work {padding-top:60px;
 		padding-bottom: 5%;
@@ -133,7 +116,9 @@ Best regards,
 
 #Contact {padding-top:40px;
 		padding-bottom: 5%;
-		box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.8)}
+		box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.8)
+}
+
 
 #Wiki {
 	background: #092B40;
@@ -144,16 +129,15 @@ Best regards,
 	position: relative;
 	/*display: block;*/
 	z-index: 1;
-	width: 40px;
+	width: 240px;
 	height: 40px;
 	margin-left: 0;
 	padding: 0;
-	/*margin-bottom: 10px;*/
+	margin-bottom: 10px;
 	border: 4px solid #D96F32;
 	border-radius: 20px;
 	background: #092B40;
 }
-
 
 
 
