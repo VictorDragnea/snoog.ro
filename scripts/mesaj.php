@@ -4,6 +4,32 @@
 	<head>
 		<title>Multumim!</title>
 		<link rel="stylesheet" type="text/css" href="ceseseu.css">
+		<style type="text/css">
+			/* CSSeu  */
+
+			body {
+			    display: table;
+			    position: absolute;
+			    height: 100%;
+			    width: 100%;
+			}
+
+			#container {
+			    display: table-cell;
+			    vertical-align: middle;
+			}
+
+			.box {
+			    width: 300px;
+			    padding: 5px;
+			    margin: 7px auto;   
+			    text-align: center;
+			    background-color: rgb(39, 174, 96);
+			    border-radius: 25px;
+			    font-size: 1.5em;
+			    padding: 15px;
+			}
+		</style>
 	</head>
 	<body>
 		<div id="container">
@@ -91,16 +117,17 @@ if($_SERVER["REQUEST_METHOD"] == "GET"){
 		mysqli_close($db_connect);*/
 	
 		### trimite mail  ###
-		require 'PHPMailer-master\PHPMailerAutoload.php';
+
+		require 'PHPMailer-master/PHPMailerAutoload.php';
 		$mail = new PHPMailer;
 	  //$mail->SMTPDebug = 3;                               // Enable verbose debug output
 		$mail->isSMTP();                                      // Set mailer to use SMTP
-		$mail->Host = 'smtp.gmail.com';  // Specify main and backup SMTP servers
+		$mail->Host = 'mail.snoog.ro';  // Specify main and backup SMTP servers
 		$mail->SMTPAuth = true;                               // Enable SMTP authentication
-		$mail->Username = 'php.cont.test@gmail.com';                 // SMTP username
-		$mail->Password = '$$$123$$$';                           // SMTP password
-	  //$mail->SMTPSecure = 'ssl';                            // Enable TLS encryption, `ssl` also accepted
-		$mail->Port = 587 ;                                    // TCP port to connect to
+		$mail->Username = 'victor@snoog.ro';                 // SMTP username
+		$mail->Password = 'Ramonsita1!';                           // SMTP password
+	  	//$mail->SMTPSecure = 'TLS';                            // Enable TLS encryption, `ssl` also accepted
+		$mail->Port = 25 ;                                    // TCP port to connect to
 		$mail->setFrom($email, 'Mailer');
 		$mail->addAddress('dragneavictor@gmail.com', 'Joe User');     // Add a recipient
 		//$mail->addAttachment($uploadfile);         // Add attachments
@@ -109,12 +136,12 @@ if($_SERVER["REQUEST_METHOD"] == "GET"){
 	    $mail->Body    = $mesaj;
 		$mail->AltBody = $mesaj;
 	
-		if(!$mail->send()) {
-		echo 'Mesajul NU a fost trimis!'.'</br>';
-	echo 'Eroare PHPMailer: ' . $mail->ErrorInfo;
-		} else {
-		echo 'Multumim pentru mesaj, '.$nume.'!';
-	}
+			if(!$mail->send()) {
+				echo 'Mesajul NU a fost trimis!'.'</br>';
+				echo 'Eroare PHPMailer: ' . $mail->ErrorInfo;
+			} else {
+				echo 'Multumim pentru mesaj, '.$nume.'!';
+			}
 	
 		} else {
 		echo $nameErr."</br>";

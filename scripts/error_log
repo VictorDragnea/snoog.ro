@@ -1,0 +1,9 @@
+[16-May-2017 10:38:00 Europe/Bucharest] PHP Warning:  require(PHPMailer-master\PHPMailerAutoload.php): failed to open stream: No such file or directory in /home/ttynofki/public_html/scripts/mesaj.php on line 94
+[16-May-2017 10:38:00 Europe/Bucharest] PHP Warning:  require(PHPMailer-master\PHPMailerAutoload.php): failed to open stream: No such file or directory in /home/ttynofki/public_html/scripts/mesaj.php on line 94
+[16-May-2017 10:38:00 Europe/Bucharest] PHP Fatal error:  require(): Failed opening required 'PHPMailer-master\PHPMailerAutoload.php' (include_path='.;/path/to/php/pear') in /home/ttynofki/public_html/scripts/mesaj.php on line 94
+[16-May-2017 10:44:08 Europe/Bucharest] PHP Warning:  require(PHPMailer-master\PHPMailerAutoload.php): failed to open stream: No such file or directory in /home/ttynofki/public_html/scripts/mesaj.php on line 97
+[16-May-2017 10:44:08 Europe/Bucharest] PHP Warning:  require(PHPMailer-master\PHPMailerAutoload.php): failed to open stream: No such file or directory in /home/ttynofki/public_html/scripts/mesaj.php on line 97
+[16-May-2017 10:44:08 Europe/Bucharest] PHP Fatal error:  require(): Failed opening required 'PHPMailer-master\PHPMailerAutoload.php' (include_path='.;/path/to/php/pear') in /home/ttynofki/public_html/scripts/mesaj.php on line 97
+[16-May-2017 10:53:56 Europe/Bucharest] PHP Warning:  require(PHPMailer-master\PHPMailerAutoload.php): failed to open stream: No such file or directory in /home/ttynofki/public_html/scripts/mesaj.php on line 97
+[16-May-2017 10:53:56 Europe/Bucharest] PHP Warning:  require(PHPMailer-master\PHPMailerAutoload.php): failed to open stream: No such file or directory in /home/ttynofki/public_html/scripts/mesaj.php on line 97
+[16-May-2017 10:53:56 Europe/Bucharest] PHP Fatal error:  require(): Failed opening required 'PHPMailer-master\PHPMailerAutoload.php' (include_path='.;/path/to/php/pear') in /home/ttynofki/public_html/scripts/mesaj.php on line 97
