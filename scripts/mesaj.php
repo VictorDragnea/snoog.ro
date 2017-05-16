@@ -43,7 +43,7 @@
 */
 
 
-//include("db_connect.php");
+include("db_connect.php");
 
 			######### VALIDARE DATE DIN POST #########
 			
@@ -111,10 +111,12 @@ if($_SERVER["REQUEST_METHOD"] == "GET"){
 	if(empty($nameErr) && empty($emailErr) && empty($msgErr)){
 	
 		### trimite info in DB###
-		/*mysqli_query($db_connect,"INSERT INTO contact_db (Nume, Email, Mesaj)
+		
+
+		mysqli_query($db_connect,"INSERT INTO contact_db (Nume, Email, Mesaj)
 											VALUES('$nume', '$email', '$mesaj')") 
 				or die(mysqli_error($db_connect));
-		mysqli_close($db_connect);*/
+		mysqli_close($db_connect);
 	
 		### trimite mail  ###
 
