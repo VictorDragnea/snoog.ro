@@ -2,12 +2,22 @@
 include("db_connect.php");
 
 
-$query = "SELECT * FROM contact_db";
+$query = "SELECT ID, Nume, Email, Mesaj FROM `contact_db`";
 
 $result =  mysqli_query($db_connect,$query) or die("Selectia din tabel a esuat");
 
+if(mysqli_num_rows($result) > 0) {
+	echo "<table><tr><th>ID</th><th>Name</th><th>Email</th><th>Mesaj</th></tr>";
+		while($row = mysqli_fetch_assoc($result)) {
+			echo "<tr><td>". $row["ID"]."</td><td>"." | ". $row["Nume"]."</td><td>"." | ". $row["Email"]."</td><td>". " | ".$row["Mesaj"]."</td></tr>";
+		}
+		echo "</table>";
+}else{
+	echo "0 results";
+}
 
-var_dump ($result);
+mysqli_close($db_connect);
+
 ?>
 
 
