@@ -37,9 +37,9 @@
 
 <?php 
 /*
-- sa permiti doar upload-ul fisierelor de tip pdf.
-- sa salvezi numele, adresa de email si mesajul intr-o baza de date.
-- sa faci o pagina ce listeaza toate mesajele impreuna cu numele celui ce a trimis mesajul pe baza bazei de date de mai sus.
+- sa permiti doar upload-ul fisierelor de tip pdf
+- sa salvezi numele, adresa de email si mesajul intr-o baza de date
+- sa faci o pagina ce listeaza toate mesajele impreuna cu numele celui ce a trimis mesajul pe baza bazei de date de mai sus
 */
 
 
